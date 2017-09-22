@@ -1,0 +1,277 @@
+*{padding: 0px;margin: 0px;}
+body{
+
+}
+a{text-decoration: none;}
+a:hover{text-decoration: none;}
+.footer{background-color: #e3e3e3;background: #e3e3e3;color: #6b6b6b;padding: 40px 50px;}
+.footer h4{color: #303030;}
+.footer a{color: #6b6b6b; }
+.footer-inner-1 {padding-left: 75px;font-size: 16px;}
+.footer-inner-2 {padding-left: 85px;font-size: 16px;}
+.footer-inner-3 {text-align: center;padding-top: 35px;}
+.footer-inner-3 p {padding: 5px 0;}
+.fs16{font-size: 16px;}
+.pet-food-block{background-image: url(../images/Pets-food-bg-1.png);background-size: cover;
+	height:600px;color: #969696;padding-left: 65px;padding-right: 65px;}
+.pet-care-block{background-image: url(../images/Pets-care-bg.png);background-size: cover;
+	height:500px;color: #969696;padding-left: 65px;padding-right: 65px;}
+.pet-food-block p{ width: 100%;font-size: 16px; padding-bottom: 10px;  padding-left: 65%;}
+.pet-care-block p{ width: 40%;font-size: 16px; padding-bottom: 10px;}
+.pet-food-block h3{color: #303030;padding-top: 70px;  padding-bottom: 30px;text-align: right;}
+.pet-care-block h3{color: #303030;  padding-top: 70px;  padding-bottom: 30px;  }
+.pet-main-block{background-image: url(../images/Pets-main-bg.png);background-size: cover;
+	height:455px;color: #303030;padding-left: 65px;padding-right: 65px;}
+.pet-main-block h2{color: #303030;  padding-top: 70px;  padding-bottom: 30px;  }
+.pet-main-block p{ width: 80%;font-size: 16px; padding-bottom: 10px;}
+.btn-read{
+	background: #f05459;	background-color: #f05459;
+	color: #fff;	border-radius: 15px;  	
+}
+.btn-read:hover{	background: #f05459;	background-color: #f05459;
+	color: #fff;	border-radius: 15px;  	
+}
+.btn-subscribe{	background: #f05459;	background-color: #f05459;
+	color: #fff;	border-top-right-radius: 15px;  	border-bottom-right-radius: 15px;
+}
+.btn-subscribe:hover{
+	background: #f05459;	background-color: #f05459;	color: #fff; 
+	border-top-right-radius: 15px;
+  	border-bottom-right-radius: 15px;
+}
+.sub-input{border-top-left-radius: 15px;  border-bottom-left-radius: 15px;background-color: #e3e3e3;
+  background: #e3e3e3;}
+.shiping-block{	padding: 45px 0;	background-image: url(../images/Pets-help-bg.png);
+	background-size: cover;	height: auto;
+}
+
+.shiping-block h4{	padding: 20px 0;}
+.shiping-block img{	padding-top: 60px ;}
+.subscribe-input{	padding: 30px 0;
+}
+.testmonial-block{
+	background-image: url(../images/Pets-help-testmonial.png);
+	background-size: cover;	height: 430px;}
+.our-blog-block{
+	padding: 30px 0;	padding-left: 65px;
+	padding-right: 65px;
+}
+.our-blog-block h3{	text-align: center;	color: #303030;
+}
+.our-products-block{
+	padding: 30px 0;	padding-left: 65px;	padding-right: 65px;
+}
+.our-products-block h3{	text-align: center;	color: #303030;  padding: 25px 0;
+}
+.our-products-block p{	
+	color: #6b6b6b;font-size: 16px;padding-bottom: 25px;
+}
+.our-products-block ul li{color: #6b6b6b;font-size: 15px;  line-height: 25px;
+  padding-left: 2px;  margin-left: 15px; }
+
+.line-box-border{border-bottom: 2px solid #6b6b6b;width: 30%;}
+.prod-scroll-blk{background-image: url(../images/Pets-pro.png);background-size: cover;height: 350px;}
+.product-img{width: 700px;  height: 250px;  margin: 50px auto;
+   overflow-x: scroll;  white-space: nowrap;  box-shadow: 0 0 10px grey;}
+  .product-img img{width:150px;}
+  .mobile-block{background-color: #d6d6d6;color: #000;  padding-top: 8px;padding-bottom: 5px;}
+  .gly{    position: relative;
+  margin-top: 5px;
+  margin-right: -143px;  z-index: 9999;
+  float: right !important;  padding-left: 0px;}
+  .src-box{border-radius: 15px;  border: 1px solid #fff;}
+.navbar-inverse {
+  background-color: #fff;  border-color: #fff;
+}
+.navbar {
+  position: relative;  min-height: 50px;
+  margin-bottom: 0px;  border: 1px solid transparent;
+}
+.nav-act{border-bottom: 2px solid #f05459;}
+
+
+.carousel-inner .active.left { left: -33%; }
+.carousel-inner .next        { left:  33%; }
+.carousel-inner .prev        { left: -33%; }
+.carousel-control.left,.carousel-control.right {background-image:none;}
+.item:not(.prev) {visibility: visible;}
+.item.right:not(.prev) {visibility: hidden;}
+.rightest{ visibility: visible;}
+.box-border{
+	  border: 2px solid rgba(128, 128, 128, 0.12);
+  padding: 10px;
+}
+.carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev {
+  margin-left: -125px;
+}
+.carousel-control .glyphicon-chevron-right, .carousel-control .icon-prev {
+  margin-right: -125px;
+}
+
+/*############ Responsive css ##################*/
+@media only screen and (min-width: 320px){
+.footer{background-color: #e3e3e3;background: #e3e3e3;color: #6b6b6b;padding: 40px 50px;}
+.footer-inner-1 {padding-left: 45px;font-size: 16px;}
+.footer-inner-2 {padding-left: 45px;font-size: 16px;}
+.footer-inner-3 {text-align: center;padding-top: 35px;}
+.footer-inner-3 p {padding: 5px 0;}
+
+.shiping-block{	padding: 45px 0;	background-image: url(../images/Pets-help-bg.png);
+	background-size: cover;	height: auto;}
+
+.testmonial-block{
+	background-image: url(../images/Pets-help-testmonial.png);
+	background-size: cover;	height: 110px;}
+.pet-main-block{background-image: url(../images/Pets-main-bg.png);background-size: cover;
+	height:455px;color: #303030;padding-left: 65px;padding-right: 65px;}
+.pet-food-block{background-image: url(../images/Pets-food-bg-1.png);background-size: cover;
+	height:320px;color: #969696;padding-left: 35px;padding-right: 35px;}
+.pet-care-block{background-image: url(../images/Pets-care-bg.png);background-size: cover;
+	height:500px;color: #969696;padding-left: 65px;padding-right: 65px;}
+.pet-food-block p{ width: 100%;font-size: 16px; padding-bottom: 10px;  padding-left: 0%;}
+.pet-food-block h3 {    color: #303030;
+    padding-top: 15px;    padding-bottom: 10px;    text-align: right;}
+
+.pet-care-block p{ width: 100%;font-size: 16px; padding-bottom: 10px;}
+.our-blog-block{	padding: 70px 0;	padding-left: 20px;
+	padding-right: 20px;
+}
+.prod-scroll-blk{background-image: url(../images/Pets-pro.png);background-size: cover;height: 350px;}
+.product-img{width: 280px;  height: 250px;  margin: 50px auto;
+   overflow-x: scroll;  white-space: nowrap;  box-shadow: 0 0 10px grey;}
+  .product-img img{width:150px;}
+.box-border {  border: 2px solid rgba(128, 128, 128, 0.12);
+  padding: 10px 10px;
+
+}
+@media only screen and (min-width: 480px){
+.footer{background-color: #e3e3e3;background: #e3e3e3;color: #6b6b6b;padding: 40px 50px;}
+.footer-inner-1 {padding-left: 35%;font-size: 16px;}
+.footer-inner-2 {padding-left: 35%;font-size: 16px;}
+.footer-inner-3 {text-align: center;padding-top: 35px;}
+.footer-inner-3 p {padding: 5px 0;}
+
+.shiping-block{	padding: 45px 0;	background-image: url(../images/Pets-help-bg.png);
+	background-size: cover;	height: auto;}
+
+.testmonial-block{
+	background-image: url(../images/Pets-help-testmonial.png);
+	background-size: cover;	height: 225px;}
+.pet-main-block{background-image: url(../images/Pets-main-bg.png);background-size: cover;
+	height:285px;color: #303030;padding-left: 65px;padding-right: 65px;}
+.pet-main-block h2{color: #303030;  padding-top: 40px;  padding-bottom: 30px;  }
+.pet-food-block{background-image: url(../images/Pets-food-bg-1.png);background-size: cover;
+	height:600px;color: #969696;padding-left: 65px;padding-right: 65px;}
+.pet-care-block{background-image: url(../images/Pets-care-bg.png);background-size: cover;
+	height:500px;color: #969696;padding-left: 65px;padding-right: 65px;}
+.pet-food-block p{ width: 100%;font-size: 16px; padding-bottom: 10px;  padding-left: 65%;}
+.pet-care-block p{ width: 40%;font-size: 16px; padding-bottom: 10px;}
+.our-blog-block{	padding: 60px 0;	padding-left: 25px;
+	padding-right: 25px;
+}
+.prod-scroll-blk{background-image: url(../images/Pets-pro.png);background-size: cover;height: 350px;}
+.product-img{width: 700px;  height: 250px;  margin: 50px auto;
+   overflow-x: scroll;  white-space: nowrap;  box-shadow: 0 0 10px #000}
+  .product-img img{width:150px;}
+}
+@media only screen and (min-width: 768px){
+.footer{background-color: #e3e3e3;background: #e3e3e3;color: #6b6b6b;padding: 40px 50px;}
+.footer-inner-1 {padding-left: 41%;font-size: 16px;}
+.footer-inner-2 {padding-left: 41%;font-size: 16px;}
+.footer-inner-3 {text-align: center;padding-top: 35px;}
+.footer-inner-3 p {padding: 5px 0;}
+
+.shiping-block{	padding: 45px 0;	background-image: url(../images/Pets-help-bg.png);
+	background-size: cover;	height: auto;}
+
+.testmonial-block{
+	background-image: url(../images/Pets-help-testmonial.png);
+	background-size: cover;	height: 255px;}
+.pet-main-block{background-image: url(../images/Pets-main-bg.png);background-size: cover;
+	height:275px;color: #303030;padding-left: 65px;padding-right: 65px;}
+.pet-food-block{background-image: url(../images/Pets-food-bg-1.png);background-size: cover;
+	height:500px;color: #969696;padding-left: 65px;padding-right: 65px;}
+.pet-care-block{background-image: url(../images/Pets-care-bg.png);background-size: cover;
+	height:375px;color: #969696;padding-left: 65px;padding-right: 65px;}
+.pet-food-block p{ width: 100%;font-size: 16px; padding-bottom: 10px;  padding-left: 65%;}
+.pet-care-block p{ width: 40%;font-size: 16px; padding-bottom: 10px;}
+
+.our-blog-block{
+	padding: 80px 0;	padding-left: 65px;
+	padding-right: 65px;
+}
+.prod-scroll-blk{background-image: url(../images/Pets-pro.png);background-size: cover;height: 350px;}
+.product-img{width: 700px;  height: 250px;  margin: 50px auto;
+   overflow-x: scroll;  white-space: nowrap;  box-shadow: 0 0 10px #000}
+  .product-img img{width:150px;}
+.carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev {
+  margin-left: -120px;
+}
+.carousel-control .glyphicon-chevron-right, .carousel-control .icon-prev {
+  margin-right: -120px;
+}
+}
+@media only screen and (min-width: 992px){
+.footer{background-color: #e3e3e3;background: #e3e3e3;color: #6b6b6b;padding: 40px 50px;}
+
+.footer-inner-1 {padding-left: 75px;font-size: 16px;}
+.footer-inner-2 {padding-left: 85px;font-size: 16px;}
+.footer-inner-3 {text-align: center;padding-top: 35px;}
+.footer-inner-3 p {padding: 5px 0;}
+.shiping-block{	padding: 45px 0;	background-image: url(../images/Pets-help-bg.png);
+	background-size: cover;	height: auto;}
+
+.testmonial-block{
+	background-image: url(../images/Pets-help-testmonial.png);
+	background-size: cover;	height: 430px;}
+
+.pet-main-block{background-image: url(../images/Pets-main-bg.png);background-size: cover;
+	height:455px;color: #303030;padding-left: 65px;padding-right: 65px;}
+.pet-food-block{background-image: url(../images/Pets-food-bg-1.png);background-size: cover;
+	height:600px;color: #969696;padding-left: 65px;padding-right: 65px;}
+.pet-care-block{background-image: url(../images/Pets-care-bg.png);background-size: cover;
+	height:500px;color: #969696;padding-left: 65px;padding-right: 65px;}
+.pet-food-block p{ width: 100%;font-size: 16px; padding-bottom: 10px;  padding-left: 65%;}
+.pet-care-block p{ width: 40%;font-size: 16px; padding-bottom: 10px;}
+.our-blog-block{
+	padding: 30px 0;	padding-left: 65px;
+	padding-right: 65px;
+}
+.prod-scroll-blk{background-image: url(../images/Pets-pro.png);background-size: cover;height: 350px;}
+.product-img{width: 700px;  height: 250px;  margin: 50px auto;
+   overflow-x: scroll;  white-space: nowrap;  box-shadow: 0 0 10px #000}
+  .product-img img{width:150px;}
+}
+@media only screen and (min-width: 1200px){
+.footer{background-color: #e3e3e3;background: #e3e3e3;color: #6b6b6b;padding: 40px 50px;}
+.footer h4{color: #303030;}
+.footer a{color: #6b6b6b; }
+.footer-inner-1 {padding-left: 75px;font-size: 16px;}
+.footer-inner-2 {padding-left: 85px;font-size: 16px;}
+.footer-inner-3 {text-align: center;padding-top: 35px;}
+.footer-inner-3 p {padding: 5px 0;}
+
+.shiping-block{	padding: 45px 0;	background-image: url(../images/Pets-help-bg.png);
+	background-size: cover;	height: auto;}
+
+.testmonial-block{
+	background-image: url(../images/Pets-help-testmonial.png);
+	background-size: cover;	height: 430px;}
+.pet-main-block{background-image: url(../images/Pets-main-bg.png);background-size: cover;
+	height:455px;color: #303030;padding-left: 65px;padding-right: 65px;}
+.pet-food-block{background-image: url(../images/Pets-food-bg-1.png);background-size: cover;
+	height:600px;color: #969696;padding-left: 65px;padding-right: 65px;}
+.pet-care-block{background-image: url(../images/Pets-care-bg.png);background-size: cover;
+	height:500px;color: #969696;padding-left: 65px;padding-right: 65px;}
+.pet-food-block p{ width: 100%;font-size: 16px; padding-bottom: 10px;  padding-left: 65%;}
+.pet-care-block p{ width: 40%;font-size: 16px; padding-bottom: 10px;}
+.our-blog-block{
+	padding: 30px 0;	padding-left: 65px;
+	padding-right: 65px;
+}
+.prod-scroll-blk{background-image: url(../images/Pets-pro.png);background-size: cover;height: 350px;}
+.product-img{width: 700px;  height: 250px;  margin: 50px auto;
+   overflow-x: scroll;  white-space: nowrap;  box-shadow: 0 0 10px #000}
+  .product-img img{width:150px;}
+
+}
